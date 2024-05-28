@@ -1,0 +1,49 @@
+digraph {
+	layer_0_neuron_0 [shape=circle]
+	layer_0_neuron_1 [shape=circle]
+	layer_0_neuron_2 [shape=circle]
+	layer_0_neuron_3 [shape=circle]
+	layer_1_neuron_0 [shape=circle]
+	layer_1_neuron_1 [shape=circle]
+	layer_1_neuron_2 [shape=circle]
+	layer_1_neuron_3 [shape=circle]
+	layer_1_neuron_4 [shape=circle]
+	layer_2_neuron_0 [shape=circle]
+	layer_2_neuron_1 [shape=circle]
+	layer_2_neuron_2 [shape=circle]
+	layer_0_neuron_0 -> layer_1_neuron_0
+	layer_0_neuron_0 -> layer_1_neuron_1
+	layer_0_neuron_0 -> layer_1_neuron_2
+	layer_0_neuron_0 -> layer_1_neuron_3
+	layer_0_neuron_0 -> layer_1_neuron_4
+	layer_0_neuron_1 -> layer_1_neuron_0
+	layer_0_neuron_1 -> layer_1_neuron_1
+	layer_0_neuron_1 -> layer_1_neuron_2
+	layer_0_neuron_1 -> layer_1_neuron_3
+	layer_0_neuron_1 -> layer_1_neuron_4
+	layer_0_neuron_2 -> layer_1_neuron_0
+	layer_0_neuron_2 -> layer_1_neuron_1
+	layer_0_neuron_2 -> layer_1_neuron_2
+	layer_0_neuron_2 -> layer_1_neuron_3
+	layer_0_neuron_2 -> layer_1_neuron_4
+	layer_0_neuron_3 -> layer_1_neuron_0
+	layer_0_neuron_3 -> layer_1_neuron_1
+	layer_0_neuron_3 -> layer_1_neuron_2
+	layer_0_neuron_3 -> layer_1_neuron_3
+	layer_0_neuron_3 -> layer_1_neuron_4
+	layer_1_neuron_0 -> layer_2_neuron_0
+	layer_1_neuron_0 -> layer_2_neuron_1
+	layer_1_neuron_0 -> layer_2_neuron_2
+	layer_1_neuron_1 -> layer_2_neuron_0
+	layer_1_neuron_1 -> layer_2_neuron_1
+	layer_1_neuron_1 -> layer_2_neuron_2
+	layer_1_neuron_2 -> layer_2_neuron_0
+	layer_1_neuron_2 -> layer_2_neuron_1
+	layer_1_neuron_2 -> layer_2_neuron_2
+	layer_1_neuron_3 -> layer_2_neuron_0
+	layer_1_neuron_3 -> layer_2_neuron_1
+	layer_1_neuron_3 -> layer_2_neuron_2
+	layer_1_neuron_4 -> layer_2_neuron_0
+	layer_1_neuron_4 -> layer_2_neuron_1
+	layer_1_neuron_4 -> layer_2_neuron_2
+}
